@@ -1,0 +1,18 @@
+footer {
+    margin: 20px 0 0 0;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-h3 {
+    color: white;
+  }
+  
+  .admin {
+    text-decoration: none;
+    color: white;
+  }

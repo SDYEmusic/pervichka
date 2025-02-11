@@ -16,8 +16,8 @@
 .item-img {
   border-radius: 30px;
   margin-bottom: 20px;
-  height: 300px;
-  width: 300px;
+  /* height: 300px; */
+  width: 400px;
 }
 
 .item-h2 {
@@ -60,8 +60,8 @@
 
 
 .reaction-img {
-  width: 2vw;
-  height: 2vw;
+  width: 3vw;
+  /* height: 2vw; */
 }
 
 .img-d {

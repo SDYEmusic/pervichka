@@ -1,4 +1,4 @@
-import reactLogo from './assets/react.svg'
+import reactLogo from './assets/logo.png'
 
 export const CARD = [
     {

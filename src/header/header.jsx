@@ -1,5 +1,5 @@
 import './header.css'
-import reactLogo from '../assets/react.svg'
+import reactLogo from '../assets/logo.png'
 
 function Header() {
     return (

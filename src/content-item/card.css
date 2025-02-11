@@ -9,8 +9,9 @@
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  padding: 20px 20px 20px 20px;
+  padding: 1%;
   position: relative;
+  border: 2px solid #204EE3;
 }
 
 .item-img {
@@ -24,19 +25,26 @@
   font-size: 30px;
   color: black;
   margin-bottom: 10px;
+  cursor: default;
 }
 
 .item-p {
   font-size: 20px;
   color: black;
+  cursor: default;
 }
 
 .card-footer {
+  width: 416.9px;
   position: absolute;
   display: flex;
-  flex-direction: row-reverse;
-  top: 520px;
-  left: 340px;
+  justify-content: space-between;
+  /* flex-direction: row-reverse; */
+  /* top: 520px; */
+  bottom: 1vw;
+  /* left: 340px; */
+  border-radius: 10px;
+  align-items: center
 }
 
 .reaction-btn {
@@ -47,21 +55,37 @@
   width: 6vw;
   height: 4vw;
   font-size: 2vw;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   border-radius: 15px;
-
+  border: 1px solid #204EE3;
+  cursor: pointer;
 }
 
-.reaction-btn:hover {
-  color: white;
-} 
+/* .reaction-btn:hover {
+  color: rgb(0, 0, 0);
+}  */
+.more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 8vw;
+  height: 2vw;
+  font-size: 1vw;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid #204EE3;
+  cursor: pointer;
+}
 
 
 .reaction-img {
   width: 3vw;
   /* height: 2vw; */
+  cursor: pointer;
 }
 
 .img-d {

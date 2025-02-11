@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: rgb(1, 1, 181);
+    background: #204EE3;
     padding: 0 100px;
 }
 
@@ -67,6 +67,7 @@
 .item:hover {
     font-size: 2vw;
     margin-left: -0.25vw;
+    color: white;
 }
 
 button:hover {

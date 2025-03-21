@@ -1,0 +1,15 @@
+.content-item-inf {
+  /* width: 724px; */
+  /* width: calc(33.33% - 30px); */
+  width: 95vw;
+  height: 600px;
+  background-color: aliceblue;
+  margin: 10px 10px 10px 10px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 1%;
+  border: 2px solid #204EE3;
+}
+

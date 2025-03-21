@@ -6,6 +6,9 @@
     text-align: center;
 }
 
+.content-item {
+    margin: 20px 10px 0 10px;
+}
 * {
     margin: 0;
     padding: 0;

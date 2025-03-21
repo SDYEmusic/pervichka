@@ -2,9 +2,9 @@
   /* width: 724px; */
   /* width: calc(33.33% - 30px); */
   width: 95vw;
-  height: 600px;
+  height: 82.4vh;
   background-color: #573443;
-  margin: 13px 10px 13px 10px;
+  margin: 15px 10px 15px 10px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;

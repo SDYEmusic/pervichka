@@ -2,9 +2,10 @@ import { useState } from 'react'
 import './card.css'
 import likes from '../assets/likes.png'
 // import reactLogo from '../assets/react.svg'
+import { Link } from 'react-router-dom'
 
 function Card(progs) {
-    const { title, prince, img } = progs
+    const { title, prince, key, post } = progs
     const [likesCount, setlikseCount] = useState(0)
 
     const increaseLikesByOne = () => {
@@ -12,7 +13,8 @@ function Card(progs) {
     }
     return (
         <>
-            <div className="content-item">
+            
+                <Link className="content-item" to={`/post/${post}`} key={key} style={{ textDecoration: "none", color: "inherit" }}>
                 <div className="img-d">
                     {/* <img src={img} className="item-img"></img> */}
                 </div>
@@ -22,7 +24,8 @@ function Card(progs) {
                 <a className='more-btn' onClick="">Комментарии</a>
                 <a className='reaction-btn' onClick={increaseLikesByOne}>&#128402; {likesCount}</a>
                 </div>
-            </div>
+                </Link>
+            
         </>
     )
 }

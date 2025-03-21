@@ -23,14 +23,14 @@
 }
 
 .item-h2 {
-  font-size: 30px;
+  font-size: 35px;
   color: #e9d4c8;
   margin-bottom: 10px;
   cursor: default;
 }
 
 .item-p {
-  font-size: 20px;
+  font-size: 25px;
   color: #e9d4c8;
   cursor: default;
 }
@@ -53,8 +53,8 @@
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row-reverse;
-  width: 6vw;
-  height: 4vw;
+  width: 5vw;
+  height: 3vw;
   font-size: 2vw;
   color: #e9d4c8;
   text-decoration: none;
@@ -72,7 +72,7 @@
   align-items: center;
   justify-content: space-evenly;
   width: 8vw;
-  height: 2vw;
+  height: 3vw;
   font-size: 1vw;
   color: #e9d4c8;
   text-decoration: none;

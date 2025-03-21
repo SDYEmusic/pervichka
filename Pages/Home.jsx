@@ -1,15 +1,18 @@
 import React from "react";
 import './Home.css'
-import { CARD } from "../src/card.js";
-import Card from "../src/content-item/Card.jsx";
+import { CARD } from "../src/card.js"
+// import { Link } from "react-router-dom"
+import Card from '../src/content-item/card.jsx'
 
 function Home() {
     return (
         <div>
             <div className="content">
                 {CARD.map((card) => (
+                    
                     <Card
                     title={card.title}
+                    post={card.post}
                     prince={card.prince}
                     img={card.img}
                     key={card.id}

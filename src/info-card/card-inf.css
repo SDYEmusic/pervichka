@@ -3,13 +3,18 @@
   /* width: calc(33.33% - 30px); */
   width: 95vw;
   height: 600px;
-  background-color: aliceblue;
-  margin: 10px 10px 10px 10px;
+  background-color: #573443;
+  margin: 13px 10px 13px 10px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
   padding: 1%;
-  border: 2px solid #204EE3;
+  border: 2px solid #50303d;
+}
+
+.inf {
+  color: #e9d4c8;
+  font-size: 30px;
 }
 

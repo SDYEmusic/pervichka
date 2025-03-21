@@ -3,10 +3,12 @@
     width: 100%;
     z-index: 3;
     top: 0;
+    border: 1px solid #573443;
+    margin-bottom: -5px;
 }
 
 .navbar {
-    background: #204EE3;
+    background: #573443;
     padding: 0 100px;
 }
 
@@ -51,8 +53,8 @@
 }
 
 .logo-img {
-    width: 130px;
-    height: 70px;
+    width: 80px;
+    /* height: 70px; */
     border-radius: 10px;
 }
 
@@ -60,14 +62,14 @@
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.7vw;
-    color: white;
+    color: #e9d4c8;
     margin-left: 1vw;
 }
 
 .item:hover {
     font-size: 2vw;
     margin-left: -0.25vw;
-    color: white;
+    color: #e9d4c8;
 }
 
 button:hover {

@@ -14,13 +14,13 @@ function Card(progs) {
         <>
             <div className="content-item">
                 <div className="img-d">
-                    <img src={img} className="item-img"></img>
+                    {/* <img src={img} className="item-img"></img> */}
                 </div>
                 <h2 className="item-h2">{title}</h2>
                 <p className='item-p'>{prince}</p>
                 <div className="card-footer">
-                <a className='more-btn' onClick="">Узнать больше</a>
-                <a className='reaction-btn' onClick={increaseLikesByOne}><img src={likes} className='reaction-img' />{likesCount}</a>
+                <a className='more-btn' onClick="">Комментарии</a>
+                <a className='reaction-btn' onClick={increaseLikesByOne}>&#128402; {likesCount}</a>
                 </div>
             </div>
         </>

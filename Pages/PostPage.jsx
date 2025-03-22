@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { CARD } from "../src/card.js"; // Импортируем массив CARD
-import Card_inf from '../src/info-card/Card-inf.jsx'
+import Card_inf from '../src/info-card/Card-inf.jsx'; // Компонент для отображения поста
+import Comment from '../src/comments/comment'; // Компонент для комментариев
 
 function PostPage() {
     const { id } = useParams(); // Получаем id из URL
@@ -19,8 +20,12 @@ function PostPage() {
     }
 
     return (
-        <div style={{ display: "flex", justifyContent: "center" }}>
-            <Card_inf title={post.title} prince={post.prince}/>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+            {/* Отображаем информацию о посте */}
+            <Card_inf title={post.title} prince={post.prince} />
+
+            {/* Раздел комментариев */}
+            <Comment />
         </div>
     );
 }

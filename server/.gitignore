@@ -1,0 +1,24 @@
+# Игнорировать JSON-файлы с данными (если они не должны быть в репозитории)
+posts.json
+comments.json
+
+# Игнорировать временные файлы и папки
+*.log
+*.tmp
+temp/
+logs/
+
+# Игнорировать файлы, созданные IDE или редакторами
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Игнорировать зависимости Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Игнорировать локальные конфигурационные файлы
+.env
+.env.local

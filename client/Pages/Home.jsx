@@ -14,7 +14,6 @@ function Home() {
                     title={card.title}
                     post={card.post}
                     prince={card.prince}
-                    img={card.img}
                     key={card.id}
                     />
                 ))}
